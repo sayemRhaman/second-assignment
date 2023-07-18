@@ -93,7 +93,7 @@ nav li{
    
   }
  .banner-text{
-    padding-left: 200px;
+    padding-left: 180px;
     margin-top: 70px;
    
  }
@@ -133,12 +133,56 @@ nav li{
     margin-left: 10px;
  }
 
-
-
  .banner-img{
     width: 50%;
-    padding-right: 200px;
+    padding-right: 180px;
  }
  .banner-img img{
     width: 100%;
  }
+
+ /*-----------------gamer----------------*/
+  .gamer{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+   /* background-color: #ff42a508 ;*/
+  }
+  .game-container{
+    padding: 50px 180px;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+  }
+  .left-bar{
+    width: 50%;
+  }
+  .left-bar img{
+    width: 100%;
+  }
+  .right-bar{
+    width: 50%;
+    text-align: right;
+  }
+  .right-bar h2{
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .right-bar .disc{
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color:var(--secondery-color);
+  }
+  .right-bar .quote{
+    margin-top: 1.2rem;
+    font-size: 1.2rem;
+    color:var(--secondery-color);
+  }
+  .quote small{
+    color: #757477;
+    font-size: 14px;
+  }
