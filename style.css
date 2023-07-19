@@ -220,6 +220,7 @@ nav li{
 .box img{
     width: 200px;
     height: 250px;
+    margin-bottom: 15px;
     
 }
   .box-img{
@@ -284,7 +285,8 @@ nav li{
         padding: 25px 0;
     } 
     nav,
-    .game-container{
+    .game-container,
+    .game{
         padding: 40px 40px;
     }
     nav,
@@ -299,7 +301,8 @@ nav li{
 
     nav, nav > ul,
     .banner-container,
-    .game-container{
+    .game-container,
+    .card{
         flex-direction: column;
     }
     .banner-container
@@ -309,7 +312,9 @@ nav li{
     .banner-img,
     .banner-left,
     .left-bar,
-    .right-bar{
+    .right-bar,
+     .box-img
+    {
         width: 100%;
      }
      .banner-img{
@@ -318,6 +323,22 @@ nav li{
      .banner-text{
         padding: 0 40px;
      }
+
+     .box{
+        width: 300px;
+        height: 380px;
+        position: relative;
+    }
+    .box img{
+        width: 300px;
+        height: 340px;
+        margin-bottom: 15px;
+        
+    }
+    .overlay{
+        width: 300px;
+        height: 340px;
+      }
   }
 
   /*-------------------max992px-------------------*/
@@ -328,7 +349,8 @@ nav li{
         padding: 25px 0;
     } 
     nav,
-    .game-container{
+    .game-container,
+    .game{
         padding: 0 40px;
     }
     nav,
