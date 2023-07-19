@@ -60,12 +60,12 @@ nav li{
 }
 .flow-on{
     background-color: #0b02231a;
-    padding: 17px 24px;
+    padding: 15px 20px;
     border-radius: 8px;
 }
 .flow-on a{
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .flow-on .fa-youtube{
     color:#CD201F;
@@ -78,9 +78,6 @@ nav li{
     -webkit-text-fill-color: transparent;
 }
 /*---------------banner-----------------*/
-  .banner{
-    padding: 0 180px; 
-  }
   .banner-left{
     width: 50%;
     background-image: url('/images/Group\ 14.png');
@@ -143,8 +140,7 @@ nav li{
 
  /*-----------------gamer----------------*/
   .gamer{
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-   /* background-color: #ff42a508 ;*/
+      background-color: #ff42a508 ;
   }
   .game-container{
     padding: 50px 180px;
@@ -185,4 +181,53 @@ nav li{
   .quote small{
     color: #757477;
     font-size: 14px;
+  }
+  /*-------------------online game----------------*/
+  .online-game{
+    padding: 50px 180px;
+    text-align: center;
+  }
+
+
+
+
+
+
+  /*--------------------responsive----------------*/
+    
+  @media screen and (max-width:576px) {
+    .navbar{
+        box-shadow: none;
+        padding: 25px 0;
+    } 
+    nav{
+        padding: 0 40px;
+    }
+    nav
+    {
+        text-align: center;
+    }
+    nav .logo{
+        margin-bottom: 2rem;
+    }
+
+    nav, nav > ul,
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-img,
+    .banner-left{
+        width: 100%;
+     }
+     .banner-img{
+        padding: 0 40px;
+     }
+     .banner-text{
+        padding: 0 40px;
+       
+       
+     }
   }
