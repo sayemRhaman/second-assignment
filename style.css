@@ -110,7 +110,7 @@ nav li{
  }
 
  .banner-text p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color:var(--secondery-color);
     margin-top: 15px;
  }
@@ -200,10 +200,13 @@ nav li{
         box-shadow: none;
         padding: 25px 0;
     } 
-    nav{
-        padding: 0 40px;
+    nav,
+    .game-container{
+        padding: 40px 40px;
     }
-    nav
+    nav,
+    .banner-text,
+    .right-bar
     {
         text-align: center;
     }
@@ -212,14 +215,18 @@ nav li{
     }
 
     nav, nav > ul,
-    .banner-container{
+    .banner-container,
+    .game-container{
         flex-direction: column;
     }
-    .banner-container{
+    .banner-container
+    {
         flex-direction: column-reverse;
     }
     .banner-img,
-    .banner-left{
+    .banner-left,
+    .left-bar,
+    .right-bar{
         width: 100%;
      }
      .banner-img{
@@ -227,7 +234,46 @@ nav li{
      }
      .banner-text{
         padding: 0 40px;
-       
+     }
+  }
+
+  /*-------------------max992px-------------------*/
+
+  @media screen and (min-width:576px) and (max-width:992px) {
+    .navbar{
+        box-shadow: none;
+        padding: 25px 0;
+    } 
+    nav,
+    .game-container{
+        padding: 0 40px;
+    }
+    nav,
+    .banner-text,
+    .right-bar
+    {
+        text-align: center;
+    }
+    nav, nav > ul,
+    .banner-container,
+    .game-container{
+        flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-img,
+    .banner-left,
+    .left-bar,
+    .right-bar{
+        width: 100%;
+     }
+     .banner-img{
+        padding: 0 80px;
+     }
+     .banner-text{
+        padding: 0 80px;
        
      }
+    
   }
