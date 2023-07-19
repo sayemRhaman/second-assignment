@@ -183,10 +183,93 @@ nav li{
     font-size: 14px;
   }
   /*-------------------online game----------------*/
-  .online-game{
+  .game{
+    margin-top: 50px;
     padding: 50px 180px;
-    text-align: center;
   }
+  .online-game{
+      text-align: center;
+  }
+  .title{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color:#000000;
+    margin-bottom:22px;
+  }
+  .funny-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap:25px;
+}
+ 
+.box{
+    width: 200px;
+    height: 280px;
+    position: relative;
+}
+.box img{
+    width: 200px;
+    height: 250px;
+    
+}
+  .box-img{
+   width: 100%;
+   border-radius: 16px;
+   
+  }
+  .overlay{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top:0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.8s;
+  }
+  .wraper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+  }
+  .wraper i{
+    font-size: 28px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .wraper h4{
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .overlay:hover{
+    opacity: 1;
+  }
+
+
+
 
 
 
