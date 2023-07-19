@@ -269,6 +269,35 @@ nav li{
     opacity: 1;
   }
 
+  /*------------------play instant--------------------*/
+  .instant{
+    margin-top: 80px;
+  }
+  .instant-container{
+    padding: 0 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:200px;
+  }
+  .instant-left{
+    width: 50%;
+  }
+  .instant-right{
+    width: 50%;
+  }
+  .instant-img{
+    width: 100%;
+   
+  }
+  .side-img{
+    width: 280px;
+    height: 280px; 
+    position: relative;
+    bottom: 200px;
+    left:-140px;
+  }
+ 
 
 
 
@@ -340,6 +369,7 @@ nav li{
         height: 340px;
       }
   }
+
 
   /*-------------------max992px-------------------*/
 
